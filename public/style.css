@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url(a.png);
+  background-size: cover; /* Cover entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.heading h1 {
+  font-size: 1rem;
+  padding: 20px 20px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: x-large;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: inline-block;
+  padding: 20px 20px;
+  margin: 20px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: large;
+}
+
+.container {
+  text-align: center;
+  /* margin: 25px; */
+  padding: 25px;
+}
+.img-box {
+  position: relative;
+  right: 10%;
+  left: 10%;
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 100px;
+  border: 1px solid black;
+  background-color: #bbbbbbcc;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  background-color: ;
+}
+
+.cus-btn {
+  height: 40px;
+  width: 90px;
+  padding: 10px 20px;
+  margin: 20px;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center; /* Center text */
+  /* Remove underline */
+  display: inline-block; /* Display as inline block */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 5px;
+}
+
+.cus-btn:hover {
+  background-color: gray;
+}
+
+.container p {
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-weight: 300;
+  background-color: #bbbbbbcc;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+Link {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 3px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.img-box p {
+  margin-top: 25px;
+  /* padding: 20px; */
+
+  padding-bottom: 30px;
+}
+
+.img-box .result {
+  padding-top: 140px;
+}
+
+.discribe {
+  padding: 30px;
+  text-align: center;
+  margin-top: 250px;
+}
